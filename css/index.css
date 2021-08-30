@@ -1,0 +1,230 @@
+.main {
+    margin: 10px 0 0 220px;
+    height: 455px;
+    /*background-color: #1634c8;*/
+    /*margin: 10px 0;*/
+    width: 981px;
+}
+
+.focus {
+    float: left;
+    width: 721px;
+    height: 100%;
+    /*background: url("../upload/focus1.png");*/
+}
+
+.focus li img {
+    height: 100%;
+}
+
+.newsflash {
+    float: right;
+    width: 250px;
+    height: 100%;
+    /*background-color: #c710be;*/
+}
+
+.news {
+    height: 165px;
+    /*background-color: rgba(69, 190, 185, 0.42);*/
+    border: 1px solid #e4e4e4;
+    /*border-bottom: 0;*/
+}
+
+.news_ht {
+    height: 33px;
+    /*background-color: #73b286;*/
+    line-height: 33px;
+    text-indent: 2em;
+    border-bottom: 1px dashed #bebebe;
+}
+
+.news_ht::after {
+    content: '更多 >';
+    float: right;
+    font-size: 16px;
+    margin-right: 15px;
+}
+
+.news_bd {
+    /*background-color: #73b286;*/
+    line-height: 27px;
+    text-indent: 2em;
+    /*border-bottom: 1px solid #bebebe;*/
+}
+
+.news_bd li {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+
+.lifeservice {
+    height: 209px;
+    /*background-color: #a94242;*/
+    border: 1px solid #e4e4e4;
+    border-top: 0;
+    /*border-bottom: 0;*/
+    overflow: hidden;
+}
+
+.lifeservice ul {
+    width: 260px;
+}
+
+.lifeservice li {
+    float: left;
+    width: 63px;
+    height: 70px;
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    text-align: center;
+}
+
+.lifeservice i {
+    display: inline-block;
+    width: 22px;
+    height: 27px;
+    background: url("../images/icons.png") no-repeat -144px -86px;
+    margin-top: 13px;
+}
+
+.bargain {
+    margin-top: 6px;
+}
+
+.recom1 {
+    height: 163px;
+    margin-top: 10px;
+    background-color: #ebebeb;
+}
+
+.recom-hd {
+    float: left;
+    width: 207px;
+    height: 100%;
+    background-color: #5c5251;
+    text-align: center;
+    padding-top: 27px;
+    font-size: 18px;
+    color: #ffffff;
+    line-height: 40px;
+}
+
+.recom-bd {
+    float: right;
+    height: 100%;
+    width: 981px;
+    /*background-color: #47944b;*/
+    overflow: hidden;
+}
+
+.recom-bd ul {
+    width: 984px;
+    padding: 10px 0;
+}
+
+.recom-bd ul li {
+    width: 246px;
+    height: 143px;
+    float: left;
+    padding: 10px 0 0 20px;
+    border-right: 1px solid #bbbbbb;
+    transition: all 0.5s;
+}
+
+.recom-bd ul li:hover p {
+    background-color: #dcda2a;
+    padding-right: 8px;
+}
+
+.recom-bd ul li:hover {
+    background-color: #ffffff;
+    padding-right: 8px;
+}
+
+.recom-bd ul li p {
+    background-color: #00a0e8;
+    display: inline-block;
+    margin: 6px 0 2px 0;
+}
+
+.recom-bd ul li img {
+    float: right;
+    margin-right: 30px;
+    margin-top: -44px;
+}
+
+
+.floor {
+    margin-top: 29px;
+}
+
+
+.ff1 {
+    margin-top: 20px;
+}
+.box_hd {
+    height: 29px;
+    border-bottom: 2px solid #c81623;
+}
+.box_hd h3 {
+    float: left;
+    font-size: 18px;
+}
+.box_hd ul {
+    float: right;
+    /*height: 57px;*/
+    margin-top: 5px;
+}
+.box_hd ul li {
+    float: left;
+}
+.box_hd ul li:nth-child(even) {
+    width: 1px;
+    height: 12px;
+    background-color: #666666;
+    margin: 4px 15px 0 15px;
+}
+
+
+.tab_list_item {
+    height: 362px;
+    background-color: #fbfbfb;
+}
+.tab_list_item>div {
+    float: left;
+}
+.col_210 {
+    width: 210px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+.col_210  ul li {
+    float: left;
+    width: 85px;
+    height: 34px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    line-height: 33px;
+    margin-right: 10px;
+}
+.col_210  ul {
+    padding-left: 12px;
+}
+.col_329 {
+    width: 329px;
+}
+.col_221 {
+    width: 221px;
+    border-right: 1px solid #ccc;
+}
+.col_219 {
+    width: 219px;
+}
+.bb {
+    /* 一般情况下，a如果包含有宽度的盒子，a需要转为块级元素 */
+    display: block;
+    border-bottom: 1px solid #ccc;
+}

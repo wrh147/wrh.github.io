@@ -1,0 +1,134 @@
+.logo {
+    margin: 15px auto 8px;
+    border-bottom: 2px solid #b1191a;
+    padding-bottom: 12px;
+}
+
+.registerarea {
+    height: 544px;
+    /*background-color: pink;*/
+    /*border-top: 2px solid #b1191a;*/
+    border: 1px solid #dfdfdf;
+    margin-top: 22px;
+}
+
+.reg-formx1 {
+
+
+}
+
+.fl {
+    float: right;
+    margin-right: 12px;
+}
+
+.shortcut > h3 {
+    float: left;
+    margin-left: 10px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+
+.reg-form {
+    width: 600px;
+    margin: 50px auto 0;
+    /*background-color: pink;*/
+
+}
+
+.reg-form ul li {
+    margin-bottom: 20px;
+}
+
+.reg-form ul li label {
+    display: inline-block;
+    width: 88px;
+    text-align: right;
+}
+
+.inp {
+    width: 242px;
+    height: 37px;
+    border: 1px solid #cccccc;
+}
+
+.error {
+    color: #c81623;
+}
+
+.error_icon,
+.success_icon {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -3px;
+    width: 20px;
+    height: 20px;
+    background: url("../images/error.png") no-repeat;
+}
+
+.success {
+    color: green;
+}
+
+.success_icon {
+    background: url("../images/success.png") no-repeat;
+}
+
+
+.safe {
+    padding-left: 175px;
+}
+
+.safe em {
+    padding: 0 12px;
+    color: #000000;
+}
+
+.ruo {
+    background-color: #de1111;
+}
+
+.zhong {
+    background-color: #40b83f;
+}
+
+.qiang {
+    background-color: #f79100;
+}
+
+
+.agree {
+    padding-left: 90px;
+}
+
+.agree input {
+    vertical-align: middle;
+}
+
+.agree a {
+    color: #1ba1e6;
+}
+
+.reg-form ul li:last-child button {
+    width: 200px;
+    height: 34px;
+    margin-left: 134px;
+    margin-top: 20px;
+    background-color: #c81623;
+    line-height: 34px;
+    font-size: 14px;
+    color: #ffffff;
+    text-align: center;
+}
+
+
+.footer {
+    height: 160px;
+    margin-top: 40px;
+    background-color: transparent;
+}
+
+.mod_copyright {
+    border-top: 0;
+}
